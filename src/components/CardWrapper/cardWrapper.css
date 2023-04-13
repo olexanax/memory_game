@@ -4,6 +4,7 @@
     width: 90%;
     display: flex;
     justify-content:  center;
+    align-items: flex-start;
     gap: 20px;
     flex-wrap: wrap;
 }
@@ -18,5 +19,5 @@
     height: 40px;
     width: 60px;
     font-size: 30px;
-    border: 5px solid rgb(0, 53, 113);;
+    border: 5px solid rgb(0, 53, 113);
 }
