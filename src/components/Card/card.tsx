@@ -64,7 +64,7 @@ const Card: React.FC<CardProps> = ({
                     <img
                         src="https://www.creativefabrica.com/wp-content/uploads/2021/07/13/Mahjong-svg-cut-file-Graphics-14637735-1.png"
                         alt=""
-                        style={{ height: "200px", width: "200px" }}
+                        style={{ height: "180px", width: "180px" }}
                     />
                 </div>
                 <div className="flip-card-back">
