@@ -12,7 +12,7 @@
 .dificalty_block{
     font-weight: bold;
     position: absolute;
-    top: 20%;
+    top: 10%;
     right: 10px
 }
 .dificalty_select{
@@ -21,3 +21,31 @@
     font-size: 30px;
     border: 5px solid rgb(0, 53, 113);
 }
+@media screen and (max-width: 877px) {
+    .dificalty_block{
+        font-weight: bold;
+        position: absolute;
+        top: 10%;
+        right: 0px
+    }
+    .dificalty_select{
+        height: 30px;
+        width: 40px;
+        font-size: 25px;
+        border: 5px solid rgb(0, 53, 113);
+    }
+  }
+  @media screen and (max-width: 520px) {
+    .dificalty_block{
+        font-weight: bold;
+        position: absolute;
+        top: 10%;
+        right: 0px
+    }
+    .dificalty_select{
+        height: 20px;
+        width: 20px;
+        font-size: 20px;
+        border: 5px solid rgb(0, 53, 113);
+    }
+  }

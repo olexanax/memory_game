@@ -2,11 +2,10 @@
     overflow: hidden;
     background-color: transparent;
     width: 180px;
-    height:  180px;
+    height: 180px;
     border: 1px solid #f1f1f1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
-
   
   /* This container is needed to position the front and back side */
   .flip-card-inner {
@@ -20,6 +19,26 @@
   .card__photo{
     height: 180px;
     width: 180px
+  }
+  @media screen and (max-width: 877px) {
+    .flip-card {
+      height: 100px;
+      width: 100px;
+    }
+    .card__photo{
+        height: 100px;
+        width: 100px
+      }
+  }
+  @media screen and (max-width: 520px) {
+    .flip-card {
+      height: 70px;
+      width: 70px;
+    }
+    .card__photo{
+        height: 70px;
+        width: 70px
+      }
   }
 
   
