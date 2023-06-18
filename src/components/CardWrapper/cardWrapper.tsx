@@ -123,7 +123,7 @@ const cardsData: ICard[] = [
 ];
 
 const CardWrapper: React.FC = () => {
-    const [dificalty, setDificalty] = useState<1 | 2 | 3>(1);
+    const [dificalty, setDificalty] = useState<1 | 2 | 3>(2);
     const [data, setData] = useState(cardsData);
     const [currentData, setCurrentData] = useState(cardsData);
     const [firstChoise, setFirstChoise] = useState<ICard | undefined>(
@@ -186,8 +186,8 @@ const CardWrapper: React.FC = () => {
                     name="dificalty"
                     id="pet-select"
                 >
-                    <option value="1">1</option>
                     <option value="2">2</option>
+                    <option value="1">1</option>
                     <option value="3">3</option>
                 </select>
             </div>
